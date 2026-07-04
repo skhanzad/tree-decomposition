@@ -1,3 +1,4 @@
+from src.summaries.compose import compute_all_summaries, extract_plan
 from src.summaries.interface import (
     ChildJumpStep,
     InterfaceAssignment,
@@ -16,6 +17,8 @@ __all__ = [
     "PlanStep",
     "SummaryEntry",
     "SummaryTable",
+    "compute_all_summaries",
+    "extract_plan",
     "make_interface",
     "solve_bag",
 ]
