@@ -1,3 +1,4 @@
+from src.summaries.cache import SummaryCache, compute_fingerprint
 from src.summaries.compose import compute_all_summaries, extract_plan
 from src.summaries.interface import (
     ChildJumpStep,
@@ -15,9 +16,11 @@ __all__ = [
     "InterfaceAssignment",
     "OwnActionStep",
     "PlanStep",
+    "SummaryCache",
     "SummaryEntry",
     "SummaryTable",
     "compute_all_summaries",
+    "compute_fingerprint",
     "extract_plan",
     "make_interface",
     "solve_bag",
