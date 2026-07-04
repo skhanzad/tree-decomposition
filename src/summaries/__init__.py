@@ -9,6 +9,7 @@ from src.summaries.interface import (
     SummaryTable,
     make_interface,
 )
+from src.summaries.invalidation import directly_affected_bags, expand_to_affected_subtree
 from src.summaries.local_solver import solve_bag
 
 __all__ = [
@@ -21,6 +22,8 @@ __all__ = [
     "SummaryTable",
     "compute_all_summaries",
     "compute_fingerprint",
+    "directly_affected_bags",
+    "expand_to_affected_subtree",
     "extract_plan",
     "make_interface",
     "solve_bag",
