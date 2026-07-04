@@ -1,0 +1,20 @@
+domain: synthetic_locality
+description: Milestone 2 synthetic chain + hub benchmarks (Experiment A & B)
+
+chain_sweep:
+  num_regions: [3, 4, 5, 6]
+  local_domain_size: 4
+  separator_domain_size: 2
+
+hub_amortization:
+  num_workers: 6
+  num_disruptions: 5
+  local_domain_size: 4
+  separator_domain_size: 2
+
+methods:
+  - localized
+  - full_replan
+  - no_cache
+
+seeds: [0]
