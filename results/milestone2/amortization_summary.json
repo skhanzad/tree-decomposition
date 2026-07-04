@@ -1,0 +1,8 @@
+{
+  "preprocess_seconds": 0.0003497090074233711,
+  "localized_total_repair_seconds": 0.0014964989968575537,
+  "full_replan_total_repair_seconds": 0.007157582964282483,
+  "localized_cumulative_seconds": 0.0018462080042809248,
+  "full_replan_cumulative_seconds": 0.007157582964282483,
+  "break_even_disruption_index": 1
+}
